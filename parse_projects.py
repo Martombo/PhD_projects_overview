@@ -1,18 +1,18 @@
 import subprocess as sp
 import os
 
-supervisors = ['Oliver', 'Marc', 'Rémy']
-max_line = 3
+types = ['Marc', 'Oliver', 'Rémy', 'Teaching']
+max_line = 2
 n = 0
 ids, y, x, value = 'c(', 'c(', 'c(', 'c('
 tmpY = 0
-offset = {'Oliver':max_line, 'Marc':0, 'Rémy':2*max_line}
-m = {'Oliver':0, 'Marc':0, 'Rémy':0}
+offset = dict(zip(types, range(0, max_line*(len(types)+1), max_line)))
+m = dict(zip(types, [0]*len(types)))
 for linea in open('projects'):
     linea = linea.rstrip('\n')
     splat = linea.split('\t')
     typ = splat[2]
-    if splat[2] not in supervisors:
+    if splat[2] not in types:
         continue
 
     height = float(splat[1])
