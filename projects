@@ -1,12 +1,12 @@
 learning	0.5	Other
 meetings	1.5	Other
-holidays	3	Other
+holidays	3.5	Other
 GCB project planning	1	Other
 mid-term preparation	0.5	Other
-paper writing (with revision)	1	Other
+paper writing	0.5	Other
 swiss rna workshop pres	0.5	Other
 Master project	0.5	Other
-thesis writing	0.5	Other
+thesis writing	1	Other
 -	-	-
 FUS KD small RNAseq	2	Marc
 FUS small RIPseq	2	Marc
@@ -25,14 +25,14 @@ Gustatory genes Drosophila	0.5	Rémy
 UPF1 CLIPseq	1.5	Oliver
 BC1	1	Teaching
 FUS old CLIPseq and ChIPseq	0.5	Marc
-Batch effect correction	1.5	Rémy
+Batch effect correction	2	Rémy
 FUS - minor introns (with KO RNAseq and splice ratio)	3.5	Marc
 ribosome profiling	2.5	Oliver
 FUS Rloops	0.5	Marc
 BC1	1	Teaching
-NMDseq	5	Oliver
+NMDseq	5.5	Oliver
 FUS CLIPseq	1	Marc
-FUS autoregulation	0.5	Marc
+FUS autoregulation	1	Marc
 Messenger RNPs	0.5	Oliver
 RBM39	1	Marc
-SMG7_KO	0.5	Oliver
+SMG7_KO	1	Oliver

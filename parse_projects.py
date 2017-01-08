@@ -44,8 +44,8 @@ values = data.frame(value = factor(''' + value + '''
 datapoly = merge(values, positions, by=c("id"))
 p = ggplot(datapoly, aes(x=x, y=y)) 
 
-svg(height=6,width=3.5)
-    p + geom_polygon(aes(fill=value, group=id)) + theme_bw()
+svg("figure13.svg", height=6, width=3.5)
+    p + geom_polygon(aes(fill=value, group=id)) + theme_bw() + xlab("") + ylab("")
 dev.off()
 
 '''
