@@ -8,31 +8,31 @@ swiss rna workshop pres	0.5	Other
 Master project	0.5	Other
 thesis writing	1	Other
 -	-	-
-FUS KD small RNAseq	2	Marc
-FUS small RIPseq	2	Marc
-FUS RIPseq	2.5	Marc
-UPF1 KD SH differentiation	1.5	Oliver
-RNAseq programs comparison	0.5	Rémy
+FUS KD small RNAseq	2	FUS
+FUS small RIPseq	2	FUS
+FUS RIPseq	2.5	FUS
+UPF1 KD SH differentiation	1.5	NMD
+RNAseq programs comparison	0.5	Bioinfo
 BC1	1	Teaching
-NMD first meta analysis	1	Oliver
-FUS KD RNAseq	1	Marc
-Egl and piRNA projects	1	Rémy
-FUS SON loop finder	0.5	Marc
-PNRC2 interactors	0.5	Oliver
-new exercise BC1	0.5	Oliver
-miRNA modifications	0.5	Marc
-Gustatory genes Drosophila	0.5	Rémy
-UPF1 CLIPseq	1.5	Oliver
+NMD first meta analysis	1	NMD
+FUS KD RNAseq	1	FUS
+Egl and piRNA projects	1	Bioinfo
+FUS SON loop finder	0.5	FUS
+PNRC2 interactors	0.5	NMD
+new exercise BC1	0.5	NMD
+miRNA modifications	0.5	FUS
+Gustatory genes Drosophila	0.5	Bioinfo
+UPF1 CLIPseq	1.5	NMD
 BC1	1	Teaching
-FUS old CLIPseq and ChIPseq	0.5	Marc
-Batch effect correction	2	Rémy
-FUS - minor introns (with KO RNAseq and splice ratio)	3.5	Marc
-ribosome profiling	2.5	Oliver
-FUS Rloops	0.5	Marc
+FUS old CLIPseq and ChIPseq	0.5	FUS
+Batch effect correction	2	Bioinfo
+FUS - minor introns (with KO RNAseq and splice ratio)	3.5	FUS
+ribosome profiling	2.5	NMD
+FUS Rloops	0.5	FUS
 BC1	1	Teaching
-NMDseq	5.5	Oliver
-FUS CLIPseq	1	Marc
-FUS autoregulation	1	Marc
-Messenger RNPs	0.5	Oliver
-RBM39	1	Marc
-SMG7_KO	1	Oliver
+NMDseq	5.5	NMD
+FUS CLIPseq	1	FUS
+FUS autoregulation	1	FUS
+Messenger RNPs	0.5	NMD
+RBM39	1	FUS
+SMG7_KO	1	NMD

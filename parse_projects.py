@@ -1,7 +1,7 @@
 import subprocess as sp
 import os
 
-types = ['Marc', 'Oliver', 'Rémy', 'Teaching']
+types = ['FUS', 'NMD', 'Bioinfo', 'Teaching']
 max_line = 1
 n = 0
 ids, y, x, value = 'c(', 'c(', 'c(', 'c('
@@ -42,9 +42,10 @@ positions = data.frame(id = ids, y=''' + y + x + '''
 values = data.frame(value = factor(''' + value + '''
 
 datapoly = merge(values, positions, by=c("id"))
+datapoly$value = factor(datapoly$value, levels=c("FUS", "NMD", "Bioinfo", "Teaching"))
 p = ggplot(datapoly, aes(x=x, y=y)) 
 
-svg("figure13.svg", height=6, width=3.5)
+svg("fig13.svg", height=6, width=3.5)
     p + geom_polygon(aes(fill=value, group=id)) + theme_bw() + xlab("") + ylab("")
 dev.off()
 
